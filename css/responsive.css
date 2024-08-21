@@ -35,7 +35,7 @@
 @media screen and (max-width:991px){
 	.experience-time-responsive{display: block;}
 	.experience-time-main{display: none;}
-	.experience-time,.timeline-content{text-align: left;margin-bottom: 20px;margin-left: 40px;}
+	.experience-time,.timeline-content{text-align: left;margin-bottom: 140px;margin-left: 40px;}
 	.timeline-content span>i{left: 0%;top: -54%;}
 	.experience-time span>i {left: -6%;top: 6%;}
 	.main-timeline:before {left:0.4%;}
