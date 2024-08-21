@@ -75,40 +75,40 @@ $(document).ready(function(){
 	
 		// i. client (carousel)
 		
-			$('#client').owlCarousel({
-				items:7,
-				loop:true,
-				smartSpeed: 1000,
-				autoplay:true,
-				dots:false,
-				autoplayHoverPause:true,
-				responsive:{
-						0:{
-							items:2
-						},
-						415:{
-							items:2
-						},
-						600:{
-							items:4
+			// $('#client').owlCarousel({
+			// 	items:7,
+			// 	loop:true,
+			// 	smartSpeed: 1000,
+			// 	autoplay:true,
+			// 	dots:false,
+			// 	autoplayHoverPause:true,
+			// 	responsive:{
+			// 			0:{
+			// 				items:2
+			// 			},
+			// 			415:{
+			// 				items:2
+			// 			},
+			// 			600:{
+			// 				items:4
 
-						},
-						1199:{
-							items:4
-						},
-						1200:{
-							items:7
-						}
-					}
-				});
+			// 			},
+			// 			1199:{
+			// 				items:4
+			// 			},
+			// 			1200:{
+			// 				items:7
+			// 			}
+			// 		}
+			// 	});
 				
 				
-				$('.play').on('click',function(){
-					owl.trigger('play.owl.autoplay',[1000])
-				})
-				$('.stop').on('click',function(){
-					owl.trigger('stop.owl.autoplay')
-				})
+			// 	$('.play').on('click',function(){
+			// 		owl.trigger('play.owl.autoplay',[1000])
+			// 	})
+			// 	$('.stop').on('click',function(){
+			// 		owl.trigger('stop.owl.autoplay')
+			// 	})
 
 
     // 5. welcome animation support
